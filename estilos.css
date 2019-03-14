@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 4em;
+	width: auto;
+	height: auto;
+}
+
+body{
+	background-image: url(images/casa_cerdito_perezoso_fondo.jpg);
+	background-position: center, center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*Houses*/
+
+#casas{
+	display: flex;
+	justify-content:space-between;
+	position: absolute;
+	margin-top: 15%;
+}
+#casa-paja img{
+	max-width: 40%;
+  	height: auto;
+  	opacity: 10%;
+  	flex-grow: 1;
+  	position:relative;
+  	/*margin-left: 6%;*/
+}
+#casa-madera img{
+	max-width: 40%;
+  	height: auto;
+  	opacity: 10%
+  	flex-grow: 1;
+  	position:relative;
+  	margin-left: 15%;
+}
+#casa-ladrillo img{
+	max-width: 60%;
+  	height: auto;
+  	opacity: 10%
+  	flex-grow: 1;
+  	position:relative;
+  	/*margin-top: 0.5%;*/
+}
+
+/*Materials*/
+
+#materiales{
+	display: flex;
+	justify-content:space-between;
+	position: absolute;
+	/*margin-top: 10%;*/
+	margin-left: 10%;
+}
+#paja img{
+	max-width: 50%;
+  	height: auto;
+  	flex-grow: 1;
+  	position:relative;
+  
+}
+
+#madera img{
+	max-width: 50%;
+  	height: auto;
+  	flex-grow: 1;
+  	position:relative;
+}
+
+#ladrillo img{
+	max-width: 50%;
+  	height: auto;
+  	flex-grow: 1;
+  	position:relative;
+
+}
+
+
+/*LABERINTO*/
+
+#laberinto{
+	display: :flex;
+	padding: 30%;
+	position: absolute;
+	max-width: 20%;
+}
+
+/*MEDIA querys */
+
+/*748px*/
+@media	(min-width:748px){
+#casas{
+	margin-top: 40%;
+	margin-left: 10%;
+	margin-right: 10%
+}
+#casa-paja img{
+	max-width: 70%;
+}
+#casa-madera img{
+	max-width: 70%;
+	margin-left: 25%;
+}
+#casa-ladrillo img{
+	max-width: 95%;
+}
+/*Materials*/
+#materiales{
+	margin-top: 65%;
+	margin-left: 15%;
+}
+#materiales img{
+	max-width: 70%;
+}
+
+
+
+/*1024px*/
+@media	(min-width:1024px){
+#casas{
+	margin-top: 25%;
+}
+#casa-paja img{
+  	margin-left: 10%;
+}
+/*Materials*/
+#materiales{
+	margin-top: 45%;
+}
+
+
+/*1440px*/
+@media	(min-width:1440px){
+#casas{
+	margin-top: 20%;
+	max-width: 65%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+#casa-madera{
+	margin-left: 10%;
+}
+#casa-ladrillo{
+	margin-left: 5%;
+}
+
+/*Materials*/
+#materiales{
+	margin-top: 35%;
+}
+#materiales img{
+	max-width: 50%;
+}
+
