@@ -3,7 +3,7 @@
 
 html{
 	font-family: 'Patrick Hand', cursive;
-	font-size: 4em;
+	/*font-size: 4em;*/
 	width: auto;
 	height: auto;
 }
@@ -29,7 +29,6 @@ body{
   	height: auto;
   	opacity: 10%;
   	flex-grow: 1;
-  	opacity: 0.4;
   	/*margin-left: 6%;*/
 }
 #casa-madera img{
@@ -77,15 +76,32 @@ body{
 
 
 /*LABERINTO*/
-
-#laberinto{
-	display: :grid;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr;
+#cerdito img{
+	position: absolute;
+	max-width: 7%;
+	padding-top: 7%;
+	padding-left: 20%;
 }
 
-.lab{
-	position: absolute;
+
+#laberinto{
+	position: relative;
+	margin-left: 25%;
+	margin-right: 25%; 
+	padding: 4%;
+	max-width: 80%;
+}
+#laberinto img{
+	position: relative;
+	display: inline;
+	max-width: 30%;
+}
+
+#casa img{
+	position: relative;
+	max-width: 22%;
+	margin-top: -30%;
+	margin-left: 72%;
 }
 
 /*MEDIA querys */
